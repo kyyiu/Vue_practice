@@ -24,3 +24,7 @@ body,
 .el-pagination{
 	margin-top: 15px;
 }
+/* element的新版本坑,不加会导致级联菜单过高 */
+.el-cascader-menu{
+	height: 300px;
+}
